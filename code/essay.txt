@@ -1,0 +1,13 @@
+               
+               for(int ab = 0; ab<25; ab++){
+                  charfreq[ab] = 0;
+               }
+               //searching our word algorith to find the number of times the letter pops up
+                  for (int ss = 0; ss < words[ii].length(); ss++) {
+                     for(int ll = 0; ll<25;ll++){
+                        if (words[ii].charAt(ss) == charArray[ll]) {
+                        //adding to the frequency counter
+                           charfreq[ll]++;
+                     }
+                  }
+               }
